@@ -1,0 +1,32 @@
+TITLE:: JSON
+
+SUMMARY:: A simple JSON parse/stringify class.
+categories:: Utilities
+
+RELATED::  Classes/Events
+
+DESCRIPTION::
+Básicamente parsea y convierte a text/json los Events como si fueran objetos.
+
+EXAMPLES::
+
+CODE::
+
+(
+// creo el objeto
+a = (
+	\birra: 12,
+	\birrb: [ 13, 14, 15 ],
+	\birrc: "algo",
+	\birrd: true,
+	\birre: Array.fill(8)
+);
+
+// convert to string json
+b = JSON.stringify(a);
+
+// parse from string
+c = JSON.parse(b);
+)
+::
+
