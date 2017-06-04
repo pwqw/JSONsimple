@@ -25,4 +25,4 @@ c = JSON.parse(b);
 ```  
 
 ## Credits
-All credits to [crucialfelix](https://github.com/crucialfelix).  
+All credits to [crucialfelix](https://github.com/crucialfelix) (see [API](https://github.com/crucialfelix/API)).  
