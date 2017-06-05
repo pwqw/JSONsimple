@@ -8,7 +8,7 @@
 	\author: 		"Alexis Caffa",
 
 // optional:
-	\version:		1.0, // must be a float
+	\version:		0.1.0, // must be a float
 	\country: 		"Argentina",
 	\since: 		"2017",
 	\helpdoc: 	"help/JSON.html",
