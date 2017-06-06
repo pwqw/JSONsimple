@@ -67,9 +67,8 @@ JSON {
   // http://json-sans-eval.googlecode.com/svn/trunk/src/json_sans_eval.js
   // but that requires better regex
 
-  // insecure JSON parser from JSON quark
   *parse { arg s;
-    ^(this.prepareForJSonDict(s).interpret)
+    ^(s.parseYAML)
   }
 
   *getQuotedTextIndices {|s, quoteChar = "\""|
