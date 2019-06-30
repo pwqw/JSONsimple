@@ -1,3 +1,11 @@
+# Importantes notas de seguridad:
+## No lo utilice para leer archivos JSON que no haya creado usted.
+### Verifique qué archivo está siendo leido por esta Clase.
+Esto se debe a que el método `parse` lee el archivo completo y lo analiza como si fuera código. Lo cual abre camino a inyecciones.
+#### De cualquier modo esta información necesita ser verificada..
+Utilícese bajo su responsabilidad.
+
+
 Tested on supercollider 3.8.0
 
 # Installation
