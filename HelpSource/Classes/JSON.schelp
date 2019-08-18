@@ -6,7 +6,7 @@ categories:: Utilities
 RELATED::  Classes/Events
 
 DESCRIPTION::
-Básicamente parsea y convierte a text/json los Events como si fueran objetos.
+Básicamente convierte a text/json los Events como si fueran objetos. Y parsea text/json a un Dictionary usando parseYAML.
 
 EXAMPLES::
 
